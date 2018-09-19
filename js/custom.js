@@ -14,8 +14,8 @@ function getUrlVars() {
 const params = getUrlVars()
 
 $(document).ready(()=> {
-  $("#paragraph1").text(paramsP1.replace("{name}", `${params.name},`).replace("{company name}", params.company));
-  $("#paragraph2").text(paramsP2.replace("{company's}", `${params.company}'s`))
+  $(".paragraph1").text(paramsP1.replace("{name}", `${params.name},`).replace("{company name}", params.company));
+  $(".paragraph2").text(paramsP2.replace("{company's}", `${params.company}'s`))
 })
 
 
