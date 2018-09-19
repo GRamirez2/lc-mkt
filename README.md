@@ -1,4 +1,7 @@
 # lc-mkt
 
-## Start the App
-browser-sync start --server --files "."
+### lc-mkt.surge.sh
+to redeploy
+```
+surge --domain lc-mkt.surge.sh
+```
